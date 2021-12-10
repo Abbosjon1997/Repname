@@ -4,7 +4,7 @@ class Config(object):
     # REQUIRED
     API_KEY = "5018845036:AAEIYk-v62xDDaVNLj-QBdLzRiSLnYUQSNg"
     OWNER_ID = "607453263" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Abbos20182583"
+    OWNER_USERNAME = "awscloudcomputingbot"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgres://cloudcomputing:litsey316@database-2.cirlskqjtc1k.ap-northeast-2.rds.amazonaws.com:5432/dbname'  # needed for any database modules
