@@ -7,7 +7,7 @@ class Config(object):
     OWNER_USERNAME = "awscloudcomputingbot"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://cloudcomputing:litsey316@database-2.cirlskqjtc1k.ap-northeast-2.rds.amazonaws.com:5432/dbname'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://cloudcomputing:litsey316@database-2.cirlskqjtc1k.ap-northeast-2.rds.amazonaws.com:5432/dbname'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
